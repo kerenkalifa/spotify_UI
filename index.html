@@ -23,7 +23,17 @@
 
 <body>
     <header>
-        <nav id="mainNavbar" class="navbar navbar-light bg-dark navbar-expand-md py-3 fixed-top justify-content-start">
+
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+            $(function () {
+                $("#nav-placeholder").load("navigation.htmlS");
+            });
+        </script>
+        <!-- <nav id="mainNavbar" class="navbar navbar-light bg-dark navbar-expand-md py-3 fixed-top justify-content-start">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="./images/spotify-logo1.png" class="img-responsive" alt=""><span
@@ -49,8 +59,8 @@
                         </li>
                     </ul>
                 </div>
-        </nav>
-        </div>
+        </nav> -->
+
     </header>
     <div class="searching">
         <form>
@@ -61,14 +71,11 @@
         </form>
     </div>
 
-    <script>
-        var message = document.getElementById("message");
-        document.getElementById("myButton").addEventListener("click", function () {
-            alert(message.value);
-        });
-    </script>
 
 
+
+
+    <script type="text/javascript" src="./assets/js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
