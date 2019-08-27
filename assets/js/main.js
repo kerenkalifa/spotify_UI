@@ -1,4 +1,8 @@
-var message = document.getElementById("message");
-document.getElementById("myButton").addEventListener("click", function() {
-  alert(message.value);
-});
+function searchItem()
+{
+   inputText=$('#message').val();
+   alert(inputText);
+    $('#anotherMessage').val(inputText);
+
+}
+
