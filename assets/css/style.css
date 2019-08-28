@@ -33,10 +33,17 @@ body {
 
 .searching {
   display: flex;
-  justify-content: center;
-  height: 100vh;
+  justify-content: center ;
+  height: 50vh;
   align-items: center;
 }
+.dropdown {
+  display: flex;
+  justify-content: center ;
+  height: 10vh;
+  align-items: center;
+}
+
 form{
   font-size: 30px;
   font-weight: 700;
