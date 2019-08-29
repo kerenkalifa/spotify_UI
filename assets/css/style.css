@@ -15,9 +15,6 @@ body {
 
 /*----------Global Styles--------*/
 
-
-
-
 .navbar a {
   color: #fff !important;
   font-weight: 500;
@@ -31,26 +28,36 @@ body {
   margin-right: 10px;
 }
 
-.searching {
+.searching, .dropdown {
   display: flex;
   justify-content: center ;
-  height: 50vh;
+  height: 200px;
   align-items: center;
+  margin-top: 200px;
 }
 .dropdown {
   display: flex;
   justify-content: center ;
   height: 10vh;
   align-items: center;
+  margin: auto;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 form{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
 }
 button{
   background-color: #1dbf73;
   color: #fff;
   border-radius: 0.25rem;
+  border: none;
 }
- 
+
+#rect {
+  display: flex;
+  justify-content: left;
+  margin: 20px;
+}

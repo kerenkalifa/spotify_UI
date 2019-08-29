@@ -27,7 +27,7 @@
     </script>
 </head>
 
-<body>
+<body bgColor="lavender">
     <header>
         <div id="header"></div>
     </header>
@@ -40,41 +40,20 @@
             <button id="myButton" type="button" onClick=searchItem();>Search</button>
         </form>
     </div>
+    <!-- Task 2 -->
     <div class="dropdown">
-        <form>
-            <div id="myDropdown" class="dropdown-content">
-                <label>
-                    Pick a color:
-                    <select id="color">
-                        <option value="Blue">Blue</option>
-                        <option value="Red">Red</option>
-                        <option value="Yellow">Yellow</option>
-                        <option value="Green">Green</option>
-                    </select>
-                </label>
-            </div>
-        </form>
+        <label>Pick A Color</label>
+        <select id="selColor" onchange="changeColor()">
+            <option value="#00FF00">Green</option>
+            <option value="#FF0000">Red</option>
+            <option value="#0000FF">Blue</option>
+            <option value="#FFFF00">Yellow</option>
+        </select>
+        <svg id="rect" width="400" height="110"></svg>
     </div>
-    
 
-    <!-- Task - 2 -->
-    <!-- <div class="dropdown">
-        <form>
 
-            <div id="myDropdown" class="dropdown-content">
-                <label>
-                    Pick a color:
-                    <select>
-                        <option value="Blue">Blue</option>
-                        <option value="Red">Red</option>
-                        <option value="Yellow">Yellow</option>
-                        <option value="Green">Green</option>
-                    </select>
-                </label>
-            </div>
-            <!<button onclick="myFunction()" class="dropbtn">Dropdown</button> -->
-    <!-- </form>
-    </div> --> -->
+
 
 
 
