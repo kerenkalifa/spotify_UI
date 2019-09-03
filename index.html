@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!--Bootstrap css  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="spotifyb-favicon.png" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="spotifyb-favicon.png" type="image/x-icon" />
     <!-- Font Awosome -->
     <script src="https://kit.fontawesome.com/f5b211a54f.js"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <title>Keren Kalifa | Spotify-UI</title>
     <script>
-        $(function () {
-            $("#header").load("header.html");
-        });
+      $(function() {
+        $("#header").load("header.html");
+      });
     </script>
-</head>
+  </head>
 
-<body bgColor="lavender">
+  <body bgColor="lavender">
     <header>
-        <div id="header"></div>
+      <div id="header"></div>
     </header>
 
+    <h2 id="list">Keren's List</h2>
     <div class="searching">
-        <form>
+      <!-- <form>
             Search a song:
-            <input type="text" id="message" value="">
-            <!-- <input type="text" id="anotherMessage" value=""> -->
-            <button id="myButton" type="button" onClick=searchItem();>Search</button>
-        </form>
+            <input type="text" id="message" value=""> -->
+      <!-- <input type="text" id="anotherMessage" value=""> -->
+      <!-- <button id="myButton" type="button" onClick=searchItem();>Search</button>
+        </form> -->
+
+      <!-- Task 3 -->
+
+      <form>
+        Work ID
+        <input type="text" />
+        <button type="submit">Search</button>
+      </form>
     </div>
     <!-- Task 2
     <div class="dropdown">
@@ -52,22 +66,18 @@
         <svg id="rect" width="400" height="110"></svg>
     </div> -->
 
-
-
-
-
-
-
-
     <script type="text/javascript" src="./assets/js/main.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -28,14 +28,15 @@ body {
   margin-right: 10px;
 }
 
-.searching, .dropdown {
+.searching,
+#list {
   display: flex;
-  justify-content: center ;
-  height: 200px;
+  justify-content: center;
+  height: 100px;
   align-items: center;
   margin-top: 200px;
 }
-.dropdown {
+/* .dropdown {
   display: flex;
   justify-content: center ;
   height: 10vh;
@@ -43,13 +44,13 @@ body {
   margin: auto;
   font-size: 1.5em;
   font-weight: bold;
-}
+} */
 
-form{
-  font-size: 25px;
+form {
+  font-size: 20px;
   font-weight: 700;
 }
-button{
+button {
   background-color: #1dbf73;
   color: #fff;
   border-radius: 0.25rem;
