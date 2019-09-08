@@ -28,15 +28,21 @@ body {
   margin-right: 10px;
 }
 
-.searching,
-#list {
+.searching {
   display: flex;
-  justify-content: center;
+  justify-content: center ;
   height: 100px;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 50px;
 }
-/* .dropdown {
+#list {
+  display: flex;
+  justify-content: center ;
+  height: 130px;
+  align-items: center;
+  margin-top: 100px;
+}
+.dropdown {
   display: flex;
   justify-content: center ;
   height: 10vh;
@@ -44,17 +50,25 @@ body {
   margin: auto;
   font-size: 1.5em;
   font-weight: bold;
-} */
+}
 
-form {
+form, table{
   font-size: 20px;
   font-weight: 700;
 }
-button {
+button{
   background-color: #1dbf73;
   color: #fff;
   border-radius: 0.25rem;
   border: none;
+}
+
+.result{
+  display: flex;
+  justify-content: center ;
+  height: 50px;
+  align-items: center;
+  margin-top: 50px;
 }
 
 /* #rect {
