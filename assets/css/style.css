@@ -30,21 +30,21 @@ body {
 
 .searching {
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   height: 100px;
   align-items: center;
   margin-top: 50px;
 }
 #list {
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   height: 130px;
   align-items: center;
   margin-top: 100px;
 }
 .dropdown {
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   height: 10vh;
   align-items: center;
   margin: auto;
@@ -52,20 +52,22 @@ body {
   font-weight: bold;
 }
 
-form, table{
+form,
+table {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
 }
-button{
+button {
   background-color: #1dbf73;
   color: #fff;
   border-radius: 0.25rem;
   border: none;
 }
 
-.result{
+.result,
+.work {
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   height: 50px;
   align-items: center;
   margin-top: 50px;
