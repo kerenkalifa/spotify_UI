@@ -7,40 +7,11 @@ function searchItem() {
     url: "https://reststop.randomhouse.com/resources/works/19312",
     dataType: "xml",
     success: function (xml) {
-      $(xml)
-        .find("work")
-        .each(function () {
-          $("table tbody").append("<tr>");
-          $("table tbody").append(
-            "<td>" +
-            $(this)
-              .find("authorweb")
-              .text() +
-            "</td>"
-          );
-          $("table tbody").append(
-            "<td>" +
-            $(this)
-              .find("onsaledate")
-              .text() +
-            "</td>"
-          );
-          $("table tbody").append(
-            "<td>" +
-            $(this)
-              .find("workid")
-              .text() +
-            "</td>"
-          );
-          $("table tbody").append(
-            "<td>" +
-            $(this)
-              .find("titleshort")
-              .text() +
-            "</td>"
-          );
-          $("table tbody").append("</tr>");
-        });
+       data=$(xml).find("work");
+       $("#authorweb").text($(data).find("authorweb").text());
+       $("#onsaledate").text($(data).find("onsaledate").text());
+       $("#workid").text($(data).find("workid").text());
+       $("#titleshort").text($(data).find("titleshort").text())
     }
   });
 }
