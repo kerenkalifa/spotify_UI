@@ -41,10 +41,10 @@
 
     <!-- Task 3 -->
 
-    <form onsubmit="searchItem()">
+    <form>
       Work ID
       <input type="text" />
-      <button type="submit">Search</button>
+      <button type="submit" onClick="searchItem()">Search</button>
     </form>
   </div>
   <br>
@@ -63,24 +63,24 @@
     </form>
   </div> -->
   <h2 class="result">Result</h2>
-  <div class="result">
+  <div class="work">
     <table id="books">
       <thead>
         <tr>
           <th>Authorweb:</th>
-          <td></td>
+          <td id="authorweb"></td>
         </tr>
         <tr>
           <th>Onsaledate:</th>
-          <td></td>
+          <td id="onsaledate"></td>
         </tr>
         <tr>
           <th>Workid:</th>
-          <td></td>
+          <td id="workid"></td>
         </tr>
         <tr>
           <th>Titleshort:</th>
-          <td></td>
+          <td id="titleshort"></td>
         </tr>
       </thead>
       <tbody>
